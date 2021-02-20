@@ -1,0 +1,17 @@
+sanitizeAmounts: Filter payments where amount is NaN
+	If NaN is given to the sanitize function, it will carry it forward into the following functions
+	
+sanitizeAmounts: Filter out invalid payment amounts given as strings
+	If an amount is given as an invalid string "string", 
+	it will be treated as NaN and fill fail as shown above
+	
+sanitizeAmounts: Filter empty payment amounts given as strings
+	If an empty string is passed in the amount column, it will be treated as zero and passed throughout. 
+	This could be potentially be expected behavior but would need confirming with product manager or an analyst.
+	
+analysePayments: Payments output is rounded to 2 decimal places (with amounts all to 2 dp)
+	In the output; median is not rounded to 2 dp that it is expected to be. 
+	
+analysePayments: Payments output is rounded to 2 decimal places (with amounts to various DPs)
+	In the output; median is not rounded to 2 dp that it is expected to be, 
+	neither is min and max if they can come through from the API
