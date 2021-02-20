@@ -1,0 +1,24 @@
+[
+    {
+        "Amount": 10.97,
+        "TransactionInformation": "50 Dogs Bar"
+    },
+    {
+        "TransactionInformation": "Bank Account Verification"
+    },
+    {
+        "Amount": 25.95,
+        "TransactionInformation": "Shorts Direct"
+    },
+    {
+        "Amount": -50
+    },
+    {
+        "Amount": "750",
+        "TransactionInformation": "Koodoo Mortgage Co."
+    },
+    {
+        "Amount": 15.50,
+        "TransactionInformation": "Barrel Flop"
+    }
+]
